@@ -1,0 +1,12 @@
+(lp0
+S'Is this the right room for an argument?'
+p1
+aS"No you haven't"
+p2
+aS'When?'
+p3
+aS"No you didn't!"
+p4
+aS'Do you love leilei?'
+p5
+a.
