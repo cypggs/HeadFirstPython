@@ -1,0 +1,10 @@
+(lp0
+S"I've told you once."
+p1
+aS'Yes I have'
+p2
+aS'Just now.'
+p3
+aS"Now let's get one thing quite clear: I most definitely told you!"
+p4
+a.
