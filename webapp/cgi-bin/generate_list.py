@@ -1,9 +1,11 @@
+import cgitb
+cgitb.enable()
 import athletemodel
 import yate
 import glob
 
-data_files = glob.glob("data/*.txt")
-print data_files
+#data_files = glob.glob("data/*.txt")
+data_files = ['../data/sarah2.txt','../data/james2.txt']
 athletes = athletemodel.put_to_store(data_files)
 
 print (yate.start_response())

@@ -29,6 +29,9 @@ def get_from_store():
 	except IOError as ioerr:
 		print('FIle error(get_from_store): + str(ioerr)')
 	return(all_athletes)
-data_files = glob.glob("data/*.txt")
+#data_files = glob.glob("data/*.txt")
+data_files = ['data/sarah.txt','data/james.txt']
+
+print (data_files)
 athletes = put_to_store(data_files)
-print athletes
+print (athletes)
