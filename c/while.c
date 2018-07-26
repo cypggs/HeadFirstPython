@@ -8,7 +8,7 @@ int main ()
    /* while 循环执行 */
    while(1)
    {
-      printf("a 的值： %d\n", a);
+      printf("I love leilei  %d\n times", a);
       a++;
    }
  
