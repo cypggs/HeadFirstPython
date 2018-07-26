@@ -1,0 +1,14 @@
+from IPy import IP
+
+ip_s = raw_input('Input an IP or net-range: ')
+ips = IP(ip_s)
+if(len(ips) > 1):
+    print 'net: %s' % ips.net()
+    print 'netmask: %s' % ips.netmask()
+    print 'broadcast: %s' % ips.broadcast()
+    print 'subnet: %s' % len(ips)
+else:
+    print 'reverse address: %s' % ips.reverseName()
+    
+#https://pypi.python.org/pypi/IPy
+
